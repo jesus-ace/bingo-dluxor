@@ -818,8 +818,8 @@ about
 .features-item img {
   z-index: 10;
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   max-width: 100%;
   margin-bottom: 40px;
   color: rgba(235, 215, 175, 0.44);
