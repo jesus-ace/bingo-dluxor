@@ -854,12 +854,21 @@ promotion
   height: 110%;
   margin-top: -200px;
 }
-
+/* .right-image-decor {
+  background-image: url(../images/right-bg-decor.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  height: 110%;
+  margin-top: -200px;
+} */
 #promotion {
   padding: 100px 0px;
 }
 
-#promotion .left-image {
+#promotion .right-image {
   align-self: center;
 }
 
@@ -880,7 +889,7 @@ promotion
 #promotion .right-text img {
   display: inline-block;
   float: left;
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 #promotion .right-text h4 {
@@ -890,6 +899,42 @@ promotion
   margin-top: 3px;
 }
 
+/* combo genral */
+
+#promotion-general {
+  padding: 100px 0px;
+}
+
+#promotion-general .left-image {
+  align-self: center;
+}
+
+#promotion-general .left-text ul {
+  padding: 0;
+  margin: 0;
+}
+
+#promotion-general .left-text ul li {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+#promotion-general .left-text ul li:last-child {
+  margin-bottom: 0px;
+}
+
+#promotion-general .left-text img {
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+}
+
+#promotion-general .left-text h4 {
+  font-size: 22px;
+  color: rgb(245, 245, 250);
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
 
 /*
 --------------------------------------------
