@@ -1336,9 +1336,9 @@ preloader
     background: linear-gradient(
       to right,
       rgba(235, 215, 175, 0.44) 0%,
-      rgba(255, 255, 255, 0.4) 50%,
       rgba(212, 175, 55, 0.44) 100%
     );
+
     transform: skewX(-10deg);
     animation: destello 2s infinite;
     border-radius: 12px;
