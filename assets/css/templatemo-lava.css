@@ -1342,7 +1342,7 @@ preloader
     transform: skewX(-10deg);
     animation: destello 2s infinite;
     border-radius: 12px;
-    border: 1px solid rgba(235, 215, 175, 0.44) !important;
+    border: 1px solid rgba(212, 175, 55) !important;
     /* glassmorphismo fin */
 }
 
