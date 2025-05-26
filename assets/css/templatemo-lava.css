@@ -1346,3 +1346,17 @@ preloader
     /* glassmorphismo fin */
 }
 
+
+.center-heading-vip{
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+}
+.center-heading-vip h2 {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(245, 245, 250);
+  margin-bottom: 25px;
+}
