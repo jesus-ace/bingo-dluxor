@@ -3,7 +3,7 @@
 	"use strict";
 
 
-	$('.owl-carousel').owlCarousel({
+	$('.salas').owlCarousel({
 		loop: true,
 		margin: 30,
 		nav: true,
@@ -17,6 +17,25 @@
 			},
 			1000: {
 				items: 1
+			}
+		}
+	})
+
+	$('.skill').owlCarousel({
+		loop:true,
+		margin:30,
+		responsiveClass:true,
+		autoplay:true,
+		autoplayTimeout:1000,
+		responsive: {
+			0: {
+				items: 4
+			},
+			600: {
+				items: 4
+			},
+			1000: {
+				items: 4
 			}
 		}
 	})
