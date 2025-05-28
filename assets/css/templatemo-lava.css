@@ -787,7 +787,8 @@ about
 */
 
 #about {
-  padding: 100px 0px;
+  /* padding: 100px 0px; */
+  padding: 0px 0px;
   position: relative;
   z-index: 9;
 }
@@ -1339,7 +1340,7 @@ preloader
       rgba(212, 175, 55, 0.44) 100%
     );
 
-    transform: skewX(-10deg);
+    /* transform: skewX(-5deg); */
     animation: destello 2s infinite;
     border-radius: 12px;
     border: 1px solid rgba(212, 175, 55) !important;
