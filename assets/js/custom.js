@@ -29,7 +29,7 @@
 		autoplayTimeout:1000,
 		responsive: {
 			0: {
-				items: 4
+				items: 2
 			},
 			600: {
 				items: 4
