@@ -797,6 +797,10 @@ about
   .features-item {
     margin-bottom: 45px;
   }
+
+  #about {
+    padding: 100px 0px;
+  }
 }
 
 .features-item {
