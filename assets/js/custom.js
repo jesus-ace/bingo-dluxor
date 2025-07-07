@@ -40,6 +40,27 @@
 		}
 	})
 
+	$('.info-about').owlCarousel({
+		//loop:true,
+		margin:60,
+		responsiveClass:true,
+		autoplay:true,
+		// pagination: true,
+		autoplayTimeout:5000,
+		//nav: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 2
+			},
+			1000: {
+				items: 2
+			}
+		}
+	})
+
 
 	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();

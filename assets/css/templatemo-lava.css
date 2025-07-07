@@ -1365,3 +1365,25 @@ preloader
   color: rgb(245, 245, 250);
   margin-bottom: 25px;
 }
+
+.card-title em {
+  font-style: normal;
+  color: rgb(212, 145, 55) !important;
+}
+
+.card-title {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(245, 245, 250);
+  margin-bottom: 25px;
+}
+
+.card-body ul{list-style:none;}
+
+.card-body ul li::before{
+	content:"💎";
+	margin-right:8px;
+  margin-bottom: 8px;
+}
